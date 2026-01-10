@@ -8,7 +8,7 @@ Algorithm - Insertion at end
 5-END
 */
 
-// Program to find out the even values of the array
+// Program to insert values in array
 #include<iostream>
 using namespace std;
 class Temp {
