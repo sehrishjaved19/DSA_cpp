@@ -16,7 +16,13 @@ class Temp {
     int abc[10];
     public:
 
-    int assign() //member function to input data into array
+    Temp() {                    // constructor to avoid garbage value
+        for(int i = 0; i < 10; i++) {
+            abc[i] = 0;          // initialize all
+        }
+    }
+
+    void assign() //member function to input data into array
     {
         abc[0] = 66;
         abc[1] = 70;
