@@ -1,7 +1,6 @@
 /*
 //Write a algorithm to convert a decimal number into binary number.
 Algorithm - Converting decimal number into Binary number
-PUSH(STK, X)
 1- START
 2- Initialize an empty Stack
 3- INPUT integer number in N
