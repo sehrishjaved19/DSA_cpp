@@ -41,6 +41,7 @@ public:
         top = -1;
     }
 
+    //Prototypes or delarations of the function of class
     void push(int);
     void pop();
     void display();
@@ -83,7 +84,7 @@ void Stack::display() {
 int main() {
     Stack st;
     int n, opt;
-    int loop = 1; 
+    int loop = 1; // setting loop = 1 is like defining condition true (bool loop = true;)
 
     while (loop) {
         cout << "Enter 1 to Push in stack\n";
