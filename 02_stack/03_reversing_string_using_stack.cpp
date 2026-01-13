@@ -3,7 +3,7 @@
 Algorithm - Reversing string
 1- START
 2- Initialize an empty Stack
-3- INPUT aa string 
+3- INPUT a string 
 4- Push all characters of the string one by one onto the stack
 5- Pop all characters from the stacvk one by one and add them to the output string
 6- Print the output string
