@@ -1,6 +1,6 @@
 /*
 //Write an algorithm to convert infix expression to postfix expression.
-Algorithm - Reversing string
+Algorithm - Converting infix to postfix expression
 1- START
 2- Initialize an empty Stack
 3- INPUT infix expression and store it in variable EXP
