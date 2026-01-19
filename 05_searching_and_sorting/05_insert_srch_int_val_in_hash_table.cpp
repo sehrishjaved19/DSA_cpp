@@ -16,6 +16,7 @@ Alogorithm-Inserting/Searching integer value into/from a hash table
     END IF        [End of step-4 loop]
 8-  INPUT data value to search in X
 9-  [Search value from hash table by recomputing its index in hash table]
+    INDEX = X/N
 10- IF ARR[INDEX] = NULL('\0') THEN
         PRINT "Value not found"
     ELSE
@@ -52,7 +53,8 @@ void hash_integers::input(int n) {
         hash_tbl[index] = n;
     }
     else {
-        cout<<"\nCollisions occurs, this value is not stored!"<<endl;
+        cout<<"\nCollisions occurs, this value is not stored!";
+        cout<<endl;
     }
 }//end of input()
 
