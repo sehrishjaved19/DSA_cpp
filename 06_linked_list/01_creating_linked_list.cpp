@@ -87,9 +87,10 @@ void std_list::display(void) {
         int rec = 1;
         current = start;
         while(current != NULL) {
-            cout<<"Record #"<<rec<<endl;
+            cout<<"\nRecord #"<<rec<<endl;
             cout<<"Roll number: "<<current->roll_no<<endl;
             cout<<"Name: "<<current->name<<endl;
+            cout<<"\n---"<<endl;
             current = current->link;
             rec++; 
         }
@@ -100,9 +101,10 @@ int main()
     std_list obj;
     int rn, rec = 1;
     char nm[15];
-    cout<<"Enter records of five students"<<endl;
+
+    cout<<"\nEnter records of five students"<<endl;
     do{
-        cout<<"Enter Record #"<<rec<<endl;
+        cout<<"\nEnter Record #"<<rec<<endl;
         cout<<"Enter roll number: ";
         cin>>rn;
         cout<<"Enter name: ";
@@ -111,11 +113,14 @@ int main()
         //add record into list by calling function "insert()"
         obj.insert(rn, nm);
         rec++;
+        cout<<"\n---"<<endl;
     }
     while(rec<=5);
 
     //display records of students stored in linked list
-    cout<<endl<<"Data of the list: \n"<<endl;
+    cout<<"--------------------------";
+    cout<<endl<<"Data of the list: \n";
+    cout<<"--------------------------"<<endl;
     obj.display();
     return 0;
 }
